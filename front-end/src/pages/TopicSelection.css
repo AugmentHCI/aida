@@ -1,0 +1,55 @@
+.topicSelectContainer h2 {
+  color: #3d5a80;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 1em;
+  font-family: "Montserrat";
+}
+
+.topicList {
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr 5fr 1fr;
+  align-items: start;
+}
+
+.box1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.box2 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.recEx {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.recEx button {
+  background-color: #3d5a80;
+  color: white;
+  text-decoration: none;
+  font-family: "Montserrat";
+  padding: 15px 32px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  transition-duration: 0.4s;
+}
+
+.recEx button:hover {
+  background-color: #3d5a80; /* Green */
+  opacity: 0.9;
+  color: white;
+}
+
+.recEx button:active {
+  background-color: #3d5a80; /* Green */
+  opacity: 0.7;
+  transform: scale(0.98);
+  color: white;
+}

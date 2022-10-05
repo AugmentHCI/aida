@@ -1,0 +1,70 @@
+.pageWrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.rec-expl-title {
+  color: #3d5a80;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 14px;
+}
+
+.rec-expl-title-border-left {
+  border-bottom: 1px #3d5a80 solid;
+}
+
+.rec-expl-title-border-right {
+  border-top: 1px #3d5a80 solid;
+  border-bottom: 1px #3d5a80 solid;
+  border-right: 1px #3d5a80 solid;
+}
+
+.rec-expl-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textContainer {
+  height: 100px;
+}
+
+.expl-container {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 1fr 10fr 1fr 10fr 1fr;
+  width: 1000px;
+}
+
+.waarom-expl {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  width: auto;
+}
+
+.wat-als-expl {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  width: auto;
+}
+
+.textContainer h2 {
+  margin-top: 5px;
+  color: #3d5a80;
+}
+
+.rec-list {
+  border: 1px solid #3d5a80;
+}
+
+.waarom-text-container h3 {
+  margin-top: 5px;
+}

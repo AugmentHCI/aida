@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  background-color: #3d5a80;
+  color: #ffffff;
+  font-family: "Montserrat";
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.logo {
+  font-size: 48px;
+  padding-left: 20px;
+}
+
+.pageName {
+  font-size: 36px;
+  text-align: center;
+}

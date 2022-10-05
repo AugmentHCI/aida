@@ -1,0 +1,88 @@
+.waarom-container {
+  margin-bottom: 40px;
+  border: 1px solid #3d5a80;
+  border-radius: 25px;
+}
+
+.waarom-graph-cont {
+  margin-bottom: 20px;
+}
+
+.waarom-text-container {
+  padding-left: 10px;
+}
+
+.tick text {
+  visibility: hidden;
+}
+
+svg {
+  margin-bottom: -30px;
+}
+
+.waarom-labels {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.waarom-labels p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #8a76a8;
+}
+
+.waarom-text-container h3 {
+  color: #3d5a80;
+}
+
+.tooltip-style {
+  background-color: #f0f0f0;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.tooltip-style h3 {
+  color: #3d5a80;
+}
+
+.tooltip-style .niveau-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.level-line {
+  stroke: #e0bb76;
+  stroke-width: 5px;
+  stroke-linecap: round;
+}
+
+.exercise-circle {
+  stroke: #000000;
+  stroke-width: 2px;
+}
+
+.x-axis .domain {
+  stroke-width: 2px;
+  stroke: #d9d9d9;
+}
+
+.x-axis g:last-child {
+  opacity: 0;
+}
+
+.x-axis .tick {
+  color: #d4d4d4;
+  stroke-width: 2px;
+}
+
+.userLevelSvg {
+  display: flex;
+  color: #e0bb76;
+  border: #e0bb76 3px solid;
+  padding: 5px;
+  width: 150px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  justify-content: space-between;
+}
